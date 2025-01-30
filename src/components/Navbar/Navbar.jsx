@@ -25,7 +25,7 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
             <div className="gap-4 d-flex gap-4">
-            <Link to="/">
+            <Link to="/CVPortfolio002">
                 <button class="btn btn-outline-success" type="submit">
                 <i class="fa-solid fa-house"></i>
                 Home
