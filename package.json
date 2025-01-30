@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"homepage": "https://Developer200010.github.io/",
+"homepage": "https://Developer200010.github.io/CVPortfolio002/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
