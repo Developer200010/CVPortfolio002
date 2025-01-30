@@ -1,0 +1,8 @@
+.con1{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    width: 98%;
+    flex-direction: column;
+}
