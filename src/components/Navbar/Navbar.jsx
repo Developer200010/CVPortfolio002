@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <Link to="/">
+          <Link to="/CVPortfolio002">
             <a class="navbar-brand" href="#">
             <i class="fa-solid fa-house"></i>
             </a>
