@@ -1,18 +1,18 @@
 import React from "react";
 import data from "../../../../src/Services";
+import "./Service.css"; // Import custom styles
+
 const Service = () => {
   return (
     <>
-      <div className="p-2 d-flex flex-wrap flex-column gap-3 ">
-        {data.map((data) => (
-          <div class="card w-100 ">
-            <div class="card-header">{data.name}</div>
-            <p class="card-text">
-              {data.description}
-            </p>
-            <div class="card-body d-flex flex-wrap gap-3">
-              {data.Tools.map((t) => (
-                <a href="#" class="btn btn-primary">
+      <div className="p-2 d-flex flex-wrap flex-column gap-3">
+        {data.map((data, index) => (
+          <div key={index} className="card w-100 glass-card">
+            <div className="card-header">{data.name}</div>
+            <p className="card-text">{data.description}</p>
+            <div className="card-body d-flex flex-wrap gap-3">
+              {data.Tools.map((t, i) => (
+                <a key={i} href="#" className="btn btn-primary">
                   {t}
                 </a>
               ))}

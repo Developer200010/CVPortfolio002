@@ -1,0 +1,36 @@
+.glass-card {
+    background: rgba(255, 255, 255, 0.1) !important; /* Light transparency */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    border-radius: 10px; /* Smooth edges */
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .glass-card:hover {
+    background: rgba(255, 255, 255, 0.2); /* Slightly more visible on hover */
+  }
+  
+  .card-header,
+  .card-footer {
+    color: white !important; /* Ensures readability */
+  }
+  
+  .typed-text {
+    color: blue;
+  }
+  
+  .card-text {
+    color: white !important; /* Adjust text color */
+  }
+  
+  .btn-primary {
+    background-color: rgba(0, 123, 255, 0.7); /* Transparent button */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgba(0, 123, 255, 0.9);
+  }
+  
